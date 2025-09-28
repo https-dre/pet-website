@@ -1,302 +1,402 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projeto PET</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto PET</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header class="site-header" id="inicio">
-    <div class="branding">
-      <img src="./Imagens/logo2.png" alt="Logo PET" class="logo">
-      <div class="brand-text">
-        <h1 class="brand-title">P.E.T.</h1>
-        <span class="brand-subtitle">Do PET à inovação</span>
-      </div>
-    </div>
-
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#" class="active">Início</a></li>
-        <li><a href="#produto">Produto</a></li>
-        <li><a href="#oferecemos">O que oferecemos</a></li>
-        <li><a href="#sustentabilidade">Sustentabilidade</a></li>
-        <li><a href="#impactos">Impactos</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="hero">
-    <div class="hero-content">
-      <h2 class="hero-title">Transforme.<br>Colabore. Inove</h2>
-      <p class="hero-subtitle">
-        P.E.T. oferece um modo eficaz de produção de filamentos com garrafas pet
-      </p>
-      <button class="btn-primary">Saiba mais</button>
-
-      <div class="hero-features">
-        <div class="feature">
-          <img src="./Imagens/icone1.png" alt="Eficiência" class="feature-icon">
-          <p>Eficiência e<br>Confiabilidade</p>
-        </div>
-        <div class="feature">
-          <img src="./Imagens/icone2.png" alt="Sustentabilidade" class="feature-icon">
-          <p>Sustentabilidade e<br>Reciclagem</p>
-        </div>
-        <div class="feature">
-          <img src="./Imagens/icone3.png" alt="Tecnologia" class="feature-icon">
-          <p>Tecnologia e<br>Inovação</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="hero-image">
-      <img src="./Imagens/imagem1.png" alt="Imagem ilustrativa" class="imagem-container">
-    </div>
-  </div>
-
-  <section class="sustentabilidade reveal-left">
-    <div class="sustentabilidade-texto">
-      <h2>Com inovação sustentável,<br>o futuro ganha forma</h2>
-    </div>
-    <div class="sustentabilidade-descricao">
-      <p>
-        Nosso sistema embarcado dá um novo destino às garrafas PET, convertendo resíduos em filamentos de alta qualidade
-        para impressão 3D.
-        Mais do que reciclar, oferecemos uma solução sustentável que une inovação, responsabilidade ambiental e
-        criatividade.
-        Cada garrafa ganha uma nova vida, ajudando a reduzir o impacto ambiental e impulsionar projetos que constroem o
-        futuro.
-      </p>
-    </div>
-  </section>
-
-  <section class="produto" id="produto">
-    <div class="produto-container">
-      <h2>Nosso produto</h2>
-      <p>
-        Nosso projeto é desenvolvido com tecnologia de impressão 3D e um sistema
-        embarcado baseado em STM32. Ele tem como objetivo transformar garrafas PET
-        inutilizadas em filamentos reutilizáveis para impressão 3D. Dessa forma, o que antes
-        seria descartado ganha uma nova função, possibilitando a criação de peças e
-        protótipos em diversos projetos, ao mesmo tempo em que reduz o impacto ambiental
-        e promove a sustentabilidade.
-      </p>
-    </div>
-  </section>
-
-  <section class="oferecemos reveal" id="oferecemos">
-    <div class="oferecemos-header">
-      <h2>O que oferecemos</h2>
-      <p style="width: 600px;">
-        Uma solução sustentável que transforma garrafas PET em filamentos para impressão 3D, unindo inovação,
-        reaproveitamento de resíduos e impacto positivo no meio ambiente.
-      </p>
-    </div>
-
-    <div class="oferecemos-cards">
-      <div class="card">
-        <img src="./Imagens/card1.png" alt="Display Touch">
-        <h3>Display<br>Touch</h3>
-        <p>
-          O aparelho conta com uma tela sensível ao toque que permite acompanhar em tempo real todas as etapas da
-          produção do filamento, de forma simples, intuitiva e moderna.
-        </p>
-      </div>
-
-      <div class="card">
-        <img src="./Imagens/card2.png" alt="Sistema Autônomo">
-        <h3>Sistema Totalmente<br>Autônomo</h3>
-        <p>
-          Nosso equipamento foi projetado para funcionar de forma independente, desde a preparação da garrafa até a
-          finalização do filamento, trazendo comodidade e confiança ao usuário.
-        </p>
-      </div>
-
-      <div class="card">
-        <img src="./Imagens/card3.png" alt="Serviço de Atendimento">
-        <h3>Serviço de<br>Atendimento</h3>
-        <p>
-          Oferecemos suporte completo para esclarecer dúvidas e auxiliar no uso do equipamento, garantindo praticidade e
-          segurança em cada etapa do processo.
-        </p>
-      </div>
-
-      <div class="card">
-        <img src="./Imagens/card4.png" alt="Automações Inteligentes">
-        <h3>Automações<br>Inteligentes</h3>
-        <p>
-          O sistema opera com processos automatizados que garantem eficiência na transformação das garrafas em
-          filamento, reduzindo a necessidade de intervenção manual e otimizando o tempo de uso.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="green">
-    <div class="verde1">
-      <h2 id="sustentabilidade">Sustentabilidade</h2>
-      <p>
-        Nosso projeto é desenvolvido com tecnologia de impressão 3D e um sistema embarcado baseado em STM32.
-        Ele tem como objetivo transformar garrafas PET inutilizadas em filamentos reutilizáveis para impressão 3D.
-        Dessa forma, o que antes seria descartado ganha uma nova função, possibilitando a criação de peças e
-        protótipos em diversos projetos, ao mesmo tempo em que reduz o impacto ambiental e promove a sustentabilidade.
-      </p>
-    </div>
-
-    <div class="verde2 reveal-right">
-      <img src="./Imagens/sustentabilidade.png" alt="Sustentabilidade">
-    </div>
-  </section>
-
-  <section class="ferramentas reveal">
-    <div class="ferramenta-imagem">
-      <img src="./Imagens/ferramentas.png" alt="Ferramentas utilizadas">
-    </div>
-
-    <div class="ferramenta-texto">
-      <h2>Ferramentas utilizadas</h2>
-      <p>
-        No desenvolvimento do nosso projeto utilizamos ferramentas que foram essenciais em cada etapa.
-        O <strong>Figma</strong> ajudou na criação do design e da interface do site, enquanto a
-        <strong>Arduino IDE</strong> foi usada para programar nosso protótipo responsável por transformar
-        garrafas PET em filamento de impressão 3D. Já o <strong>Fusion 360</strong> nos permitiu modelar o
-        protótipo em 3D, garantindo uma visualização clara antes da execução.
-      </p>
-      <p>
-        Essas ferramentas juntas tornaram possível unir <em>design, tecnologia e sustentabilidade</em> em um só projeto.
-      </p>
-    </div>
-  </section>
-
-  <section class="impactos reveal-right" id="impactos">
-    <div class="impactos-texto">
-      <h2>Impactos</h2>
-      <ol>
-        <li>
-          <strong>Redução de resíduos:</strong> desvia garrafas PET do lixo e dos rios, diminuindo
-          o volume de resíduos sólidos.
-        </li>
-        <li>
-          <strong>Economia de recursos naturais:</strong> diminui a dependência de matéria-prima
-          virgem (petróleo) ao transformar plástico já existente em filamento.
-        </li>
-        <li>
-          <strong>Menor pegada de carbono:</strong> processos locais de reciclagem e produção
-          reduzem transporte em emissões associadas à fabricação de plástico novo.
-        </li>
-        <li>
-          <strong>Acesso a materiais e redução de custo:</strong> produção de filamento local
-          torna impressão 3D mais barata e acessível para prototipagem e educação.
-        </li>
-        <li>
-          <strong>Inovação e capacitação:</strong> gera oportunidades de aprendizado em design,
-          manufatura digital e engenharia para escolas e comunidades.
-        </li>
-        <li>
-          <strong>Conscientização ambiental:</strong> envolve a comunidade, estimulando práticas
-          de consumo responsável e coleta seletiva.
-        </li>
-      </ol>
-    </div>
-
-    <div class="impactos-imagem">
-      <img src="./Imagens/impactos2.png" alt="Impactos" class="imagem-impactos" />
-    </div>
-  </section>
-
-  <div class="footer reveal">
-    <div class="footer-top">
-      <div class="footer-texto">
-        <p>Do descarte à inovação: o P.E.T. transforma garrafas em possibilidades.</p>
-        <a href="#inicio" class="botao-voltar">Voltar ao início</a>
-      </div>
-    </div>
-
-    <div class="footer-ilustracao">
-      <img src="./Imagens/imagemfooter.png" alt="Reciclagem PET" />
-    </div>
-
-    <footer class="rodape">
-      <div class="topo-rodape">
-        <img src="./Imagens/logo2.png" alt="Logo PET" class="logo">
-        <div class="textos-logo">
-          <h1 class="brand-title2">P.E.T.</h1>
-          <span class="brand-subtitle2">Do PET à inovação</span>
-        </div>
-      </div>
-
-      <div class="corpo-rodape">
-        <div class="corpo1">
-          <p class="titulo-corpo1">Contato</p>
-          <p class="local-contato">Praça Miguel Ortega, 135 - </p>
-          <p class="local-contato">Parque Assuncao, Taboão da </p>
-          <p class="local-contato">Serra - SP, 06754-160 </p>
-          <div class="atendimento">
-            <div>
-              <p class="atendimento-titulo">Telefone:</p>
-              <p class="atendimento-subtitulo">(11) 12345-6789</p>
+    <body>
+        <header class="site-header" id="inicio">
+            <div class="branding">
+                <img src="./Imagens/logo2.png" alt="Logo PET" class="logo" />
+                <div class="brand-text">
+                    <h1 class="brand-title">P.E.T.</h1>
+                    <span class="brand-subtitle">Do PET à inovação</span>
+                </div>
             </div>
 
-            <div>
-              <p class="atendimento-titulo">Atendimento:</p>
-              <p class="atendimento-subtitulo">p.e.t@gmail.com</p>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Início</a></li>
+                    <li><a href="#produto">Produto</a></li>
+                    <li><a href="#oferecemos">O que oferecemos</a></li>
+                    <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                    <li><a href="#impactos">Impactos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Transforme.<br />Colabore. Inove</h2>
+                <p class="hero-subtitle">
+                    P.E.T. oferece um modo eficaz de produção de filamentos com
+                    garrafas pet
+                </p>
+
+                <div class="hero-features">
+                    <div class="feature">
+                        <img
+                            src="./Imagens/icone1.png"
+                            alt="Eficiência"
+                            class="feature-icon"
+                        />
+                        <p>Eficiência e<br />Confiabilidade</p>
+                    </div>
+                    <div class="feature">
+                        <img
+                            src="./Imagens/icone2.png"
+                            alt="Sustentabilidade"
+                            class="feature-icon"
+                        />
+                        <p>Sustentabilidade e<br />Reciclagem</p>
+                    </div>
+                    <div class="feature">
+                        <img
+                            src="./Imagens/icone3.png"
+                            alt="Tecnologia"
+                            class="feature-icon"
+                        />
+                        <p>Tecnologia e<br />Inovação</p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="corpo2">
-          <p class="titulo-corpo1">Saiba mais</p>
-          <p class="local-contato">Insira seu email para receber mais</p>
-          <p class="local-contato">informações sobre o nosso projeto</p>
-
-          <form id="form-email">
-            <p class="email-texto">Email *</p>
-            <div class="input-container">
-              <input type="email" id="email" placeholder="Digite seu email" required>
-              <button type="submit">Enviar</button>
+            <div class="hero-image">
+                <img
+                    src="./Imagens/imagem1.png"
+                    alt="Imagem ilustrativa"
+                    class="imagem-container"
+                />
             </div>
-          </form>
-
-          <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-          <script>
-            (function () {
-              emailjs.init("O66XxZ0WsptbodEj5");
-            })();
-
-            document.getElementById("form-email").addEventListener("submit", function (e) {
-              e.preventDefault();
-
-              emailjs.send("service_8vibsda", "template_c34352a", {
-                email: document.getElementById("email").value
-              })
-                .then(() => alert("Email enviado com sucesso!"))
-                .catch((err) => alert("Erro ao enviar: " + JSON.stringify(err)));
-            });
-          </script>
         </div>
 
-        <div class="corpo3">
-          <p class="rede-social-texto">Linkedin</p>
-          <p class="rede-social-texto2">Instagram</p>
-          <p class="rede-social-texto2">Facebook</p>
+        <section class="sustentabilidade reveal-left">
+            <div class="sustentabilidade-texto">
+                <h2>Com inovação sustentável,<br />o futuro ganha forma</h2>
+            </div>
+            <div class="sustentabilidade-descricao">
+                <p>
+                    Nosso sistema embarcado dá um novo destino às garrafas PET,
+                    convertendo resíduos em filamentos de alta qualidade para
+                    impressão 3D. Mais do que reciclar, oferecemos uma solução
+                    sustentável que une inovação, responsabilidade ambiental e
+                    criatividade. Cada garrafa ganha uma nova vida, ajudando a
+                    reduzir o impacto ambiental e impulsionar projetos que
+                    constroem o futuro.
+                </p>
+            </div>
+        </section>
+
+        <section class="produto" id="produto">
+            <div class="produto-container">
+                <h2>Nosso produto</h2>
+                <p>
+                    Nosso projeto é desenvolvido com tecnologia de impressão 3D
+                    e um sistema embarcado baseado em ESP32. Ele tem como
+                    objetivo transformar garrafas PET inutilizadas em filamentos
+                    reutilizáveis para impressão 3D. Dessa forma, o que antes
+                    seria descartado ganha uma nova função, possibilitando a
+                    criação de peças e protótipos em diversos projetos, ao mesmo
+                    tempo em que reduz o impacto ambiental e promove a
+                    sustentabilidade.
+                </p>
+            </div>
+        </section>
+
+        <section class="oferecemos reveal" id="oferecemos">
+            <div class="oferecemos-header">
+                <h2>O que oferecemos</h2>
+                <p style="width: 600px">
+                    Uma solução sustentável que transforma garrafas PET em
+                    filamentos para impressão 3D, unindo inovação,
+                    reaproveitamento de resíduos e impacto positivo no meio
+                    ambiente.
+                </p>
+            </div>
+
+            <div class="oferecemos-cards">
+                <div class="card">
+                    <img src="./Imagens/card1.png" alt="Display Touch" />
+                    <h3>Display<br />Touch</h3>
+                    <p>
+                        O aparelho conta com uma tela sensível ao toque que
+                        permite acompanhar em tempo real todas as etapas da
+                        produção do filamento, de forma simples, intuitiva e
+                        moderna.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="./Imagens/card2.png" alt="Sistema Autônomo" />
+                    <h3>Sistema Totalmente<br />Autônomo</h3>
+                    <p>
+                        Nosso equipamento foi projetado para funcionar de forma
+                        independente, desde a preparação da garrafa até a
+                        finalização do filamento, trazendo comodidade e
+                        confiança ao usuário.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img
+                        src="./Imagens/card3.png"
+                        alt="Serviço de Atendimento"
+                    />
+                    <h3>Serviço de<br />Atendimento</h3>
+                    <p>
+                        Oferecemos suporte completo para esclarecer dúvidas e
+                        auxiliar no uso do equipamento, garantindo praticidade e
+                        segurança em cada etapa do processo.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img
+                        src="./Imagens/card4.png"
+                        alt="Automações Inteligentes"
+                    />
+                    <h3>Automações<br />Inteligentes</h3>
+                    <p>
+                        O sistema opera com processos automatizados que garantem
+                        eficiência na transformação das garrafas em filamento,
+                        reduzindo a necessidade de intervenção manual e
+                        otimizando o tempo de uso.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="green">
+            <div class="verde1">
+                <h2 id="sustentabilidade">Sustentabilidade</h2>
+                <p>
+                    Nosso projeto é desenvolvido com tecnologia de impressão 3D
+                    e um sistema embarcado baseado em ESP32. Ele tem como
+                    objetivo transformar garrafas PET inutilizadas em filamentos
+                    reutilizáveis para impressão 3D. Dessa forma, o que antes
+                    seria descartado ganha uma nova função, possibilitando a
+                    criação de peças e protótipos em diversos projetos, ao mesmo
+                    tempo em que reduz o impacto ambiental e promove a
+                    sustentabilidade.
+                </p>
+            </div>
+
+            <div class="verde2 reveal-right">
+                <img
+                    src="./Imagens/sustentabilidade.png"
+                    alt="Sustentabilidade"
+                />
+            </div>
+        </section>
+
+        <section class="ferramentas reveal">
+            <div class="ferramenta-imagem">
+                <img
+                    src="./Imagens/ferramentas.png"
+                    alt="Ferramentas utilizadas"
+                />
+            </div>
+
+            <div class="ferramenta-texto">
+                <h2>Ferramentas utilizadas</h2>
+                <p>
+                    No desenvolvimento do nosso projeto utilizamos ferramentas
+                    que foram essenciais em cada etapa. O
+                    <strong>Figma</strong> ajudou na criação do design e da
+                    interface do site, enquanto a
+                    <strong>Arduino IDE</strong> foi usada para programar nosso
+                    protótipo responsável por transformar garrafas PET em
+                    filamento de impressão 3D. Já o
+                    <strong>Fusion 360</strong> nos permitiu modelar o protótipo
+                    em 3D, garantindo uma visualização clara antes da execução.
+                </p>
+                <p>
+                    Essas ferramentas juntas tornaram possível unir
+                    <em>design, tecnologia e sustentabilidade</em> em um só
+                    projeto.
+                </p>
+            </div>
+        </section>
+
+        <section class="impactos reveal-right" id="impactos">
+            <div class="impactos-texto">
+                <h2>Impactos</h2>
+                <ol>
+                    <li>
+                        <strong>Redução de resíduos:</strong> desvia garrafas
+                        PET do lixo e dos rios, diminuindo o volume de resíduos
+                        sólidos.
+                    </li>
+                    <li>
+                        <strong>Economia de recursos naturais:</strong> diminui
+                        a dependência de matéria-prima virgem (petróleo) ao
+                        transformar plástico já existente em filamento.
+                    </li>
+                    <li>
+                        <strong>Menor pegada de carbono:</strong> processos
+                        locais de reciclagem e produção reduzem transporte em
+                        emissões associadas à fabricação de plástico novo.
+                    </li>
+                    <li>
+                        <strong>Acesso a materiais e redução de custo:</strong>
+                        produção de filamento local torna impressão 3D mais
+                        barata e acessível para prototipagem e educação.
+                    </li>
+                    <li>
+                        <strong>Inovação e capacitação:</strong> gera
+                        oportunidades de aprendizado em design, manufatura
+                        digital e engenharia para escolas e comunidades.
+                    </li>
+                    <li>
+                        <strong>Conscientização ambiental:</strong> envolve a
+                        comunidade, estimulando práticas de consumo responsável
+                        e coleta seletiva.
+                    </li>
+                </ol>
+            </div>
+
+            <div class="impactos-imagem">
+                <img
+                    src="./Imagens/impactos2.png"
+                    alt="Impactos"
+                    class="imagem-impactos"
+                />
+            </div>
+        </section>
+
+        <div class="footer reveal">
+            <div class="footer-top">
+                <div class="footer-texto">
+                    <p>
+                        Do descarte à inovação: o P.E.T. transforma garrafas em
+                        possibilidades.
+                    </p>
+                    <a href="#inicio" class="botao-voltar">Voltar ao início</a>
+                </div>
+            </div>
+
+            <div class="footer-ilustracao">
+                <img src="./Imagens/imagemfooter.png" alt="Reciclagem PET" />
+            </div>
+
+            <footer class="rodape">
+                <div class="topo-rodape">
+                    <img
+                        src="./Imagens/logo2.png"
+                        alt="Logo PET"
+                        class="logo"
+                    />
+                    <div class="textos-logo">
+                        <h1 class="brand-title2">P.E.T.</h1>
+                        <span class="brand-subtitle2">Do PET à inovação</span>
+                    </div>
+                </div>
+
+                <div class="corpo-rodape">
+                    <div class="corpo1">
+                        <p class="titulo-corpo1">Contato</p>
+                        <p class="local-contato">Praça Miguel Ortega, 135 -</p>
+                        <p class="local-contato">Parque Assuncao, Taboão da</p>
+                        <p class="local-contato">Serra - SP, 06754-160</p>
+                        <div class="atendimento">
+                            <div>
+                                <p class="atendimento-titulo">Telefone:</p>
+                                <p class="atendimento-subtitulo">
+                                    (11) 12345-6789
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="atendimento-titulo">Atendimento:</p>
+                                <p class="atendimento-subtitulo">
+                                    p.e.t@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="corpo2">
+                        <p class="titulo-corpo1">Saiba mais</p>
+                        <p class="local-contato">
+                            Insira seu email para receber mais
+                        </p>
+                        <p class="local-contato">
+                            informações sobre o nosso projeto
+                        </p>
+
+                        <form id="form-email">
+                            <p class="email-texto">Email *</p>
+                            <div class="input-container">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="Digite seu email"
+                                    required
+                                />
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+
+                        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+                        <script>
+                            (function () {
+                                emailjs.init("O66XxZ0WsptbodEj5");
+                            })();
+
+                            document
+                                .getElementById("form-email")
+                                .addEventListener("submit", function (e) {
+                                    e.preventDefault();
+
+                                    emailjs
+                                        .send(
+                                            "service_8vibsda",
+                                            "template_c34352a",
+                                            {
+                                                email: document.getElementById(
+                                                    "email",
+                                                ).value,
+                                            },
+                                        )
+                                        .then(() =>
+                                            alert("Email enviado com sucesso!"),
+                                        )
+                                        .catch((err) =>
+                                            alert(
+                                                "Erro ao enviar: " +
+                                                    JSON.stringify(err),
+                                            ),
+                                        );
+                                });
+                        </script>
+                    </div>
+
+                    <div class="corpo3">
+                        <p class="rede-social-texto">Redes Sociais</p>
+                        <a
+                            href="https://www.instagram.com/pet.ltda/?utm_source=ig_web_button_share_sheet"
+                            class="rede-social-texto2"
+                            >Instagram</a
+                        >
+                    </div>
+                </div>
+            </footer>
+
+            <div class="footer-copy">
+                <p>© 2025 Projeto P.E.T. – Todos os direitos reservados.</p>
+            </div>
         </div>
-      </div>
-    </footer>
 
-    <div class="footer-copy">
-      <p>© 2025 Projeto P.E.T. – Todos os direitos reservados.</p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
