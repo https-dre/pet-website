@@ -25,7 +25,8 @@ body {
 }
 
 .logo {
-    height: 55px;
+    height: 45px;
+    border-radius: 10px;
 }
 
 .brand-text {
@@ -606,7 +607,7 @@ body {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 4vw 8vw;
+    padding: 4vw 4vw;
     background-color: #fff;
 }
 
